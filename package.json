@@ -11,7 +11,7 @@
     "clean": "hardhat clean",
     "build": "hardhat clean && hardhat compile",
     "test": "hardhat test",
-    "prettier": "prettier '**/*.{json,sol,md}' --write",
+    "prettier": "prettier '**/*.{json,ts,sol,md}' --write",
     "lint": "eslint '**/*.{js,ts}' --fix",
     "lint:sol": "solhint 'contracts/**/*.sol'"
   },

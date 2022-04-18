@@ -1,5 +1,8 @@
 export const abi = {
-  Erc20: [`function decimals() public view returns (uint8)`],
+  Erc20: [
+    `function decimals() public view returns (uint8)`,
+    `function symbol() public view returns (string)`,
+  ],
   UniV2Router: [
     `function WETH() public view returns (address)`,
     `function factory() public view returns (address)`,
