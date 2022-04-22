@@ -14,4 +14,5 @@ export const abi = {
     `function token0() public view returns (address)`,
     `function token1() public view returns (address)`,
   ],
+  CErc20: [`function underlying() public view returns (address)`],
 };
