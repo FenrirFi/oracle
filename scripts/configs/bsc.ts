@@ -50,6 +50,48 @@ export const configs = {
       underlying: "0x14016E85a25aeb13065688cAFB43044C2ef86784",
       priceSource: "1",
     },
+    // CEEK
+    {
+      underlying: "0xe0F94Ac5462997D2BC57287Ac3a3aE4C31345D66",
+      priceSource: "1",
+    },
+    // TINC
+    {
+      underlying: "0x05aD6E30A855BE07AfA57e08a4f30d00810a402e",
+      priceSource: "1",
+    },
+    // PEX
+    {
+      underlying: "0x6a0b66710567b6beb81A71F7e9466450a91a384b",
+      priceSource: "1",
+    },
+    // FROYO
+    {
+      underlying: "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+      priceSource: "1",
+    },
+    // BSW
+    {
+      underlying: "0x965f527d9159dce6288a2219db51fc6eef120dd1",
+      priceSource: "1",
+    },
+    // GMT
+    {
+      underlying: "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
+      priceSource: "1",
+      uniswapMarket: "0x007EC643C7Cc33a70C083fC305c283dd009C8b94",
+    },
+    // XWG
+    {
+      underlying: "0x6b23C89196DeB721e6Fd9726E6C76E4810a464bc",
+      priceSource: "1",
+      uniswapMarket: "0x936928146a21AfCcd30DfA84824A780572B1630B",
+    },
+    // FENRIR-WBNB LP
+    {
+      underlying: "0xAe8fB9977EDec9Dc80A4FE42c8259566C7Fd4cf4",
+      priceSource: "0",
+    },
   ],
 
   cTokens: [
@@ -62,5 +104,13 @@ export const configs = {
     "0x9f34BD9F72B91a904e8B4FAdA5ce6ecc572113A1", // fDAI
     "0xaf528C764284b5EbD501C2BebF611858D896427d", // fCake
     "0x6908CC99407bE9FB693841DEf1a6A77CDDc01684", // fTUSD
+    "0x61d9Fc7Af7153b2CbDB91032869a9ec1aD1Df4FD", // fCEEK
+    "0x853d575ac4AaE20B69bce0E61Eb817c96DA90752", // fTINC
+    "0x2395a1080bAA393639b2e65c1D6A56DF51d351Ea", // fPEX
+    "0x82ad3f5485DB4b89Ded14F919bed1Ad6A2626895", // fFroyo
+    "0x3b573c73AB570489C99a8fEEE801b7eF73296b20", // fBSW
+    "0x04F8D3015eE15EDA822b9d1F489aA13379Ffc4b6", // fGMT
+    "0x0BE08E9dB1deDC17Eab83ee1D5fcb39cda099233", // fXWG
+    "0x1c8F36866691C7f25D14577cfE8c76BFb715Ee8A", // gFNR-WBNB-LP
   ],
 };

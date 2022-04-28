@@ -110,7 +110,7 @@ const createConfig = async (
     }
 
     // EXTERNAL_ORACLE
-    case "3": {
+    case "2": {
       if (!config.externalOracle)
         throw Error(`externalOracle not provided for ${config.underlying}`);
       tokenConfig.externalOracle = config.externalOracle;
