@@ -2,7 +2,7 @@ import hre from "hardhat";
 import { createConfigs } from "../scripts/common/create-configs";
 import { numToWei, weiToNum } from "../utils/utils";
 
-import { configs as inputConfigs } from "../scripts/configs/bsc";
+import { configs as inputConfigs } from "../scripts/configs/kcc";
 import { Oracle } from "../typechain/Oracle";
 
 describe("Forked", () => {
