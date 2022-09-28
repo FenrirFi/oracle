@@ -2,7 +2,7 @@ import hre from "hardhat";
 import { readFileSync } from "fs";
 import { abi } from "../utils/abis";
 import { weiToNum } from "../utils/utils";
-import { configs } from "../scripts/configs/bsc";
+import { configs } from "../scripts/configs/metis";
 
 const deploymentFilePath = `./deployments/${hre.network.name}.json`;
 

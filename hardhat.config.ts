@@ -35,7 +35,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       forking: {
-        url: process.env.FORK_URL || "https://bsc-dataseed.binance.org/",
+        url: process.env.FORK_URL || "https://andromeda.metis.io/?owner=1088",
       },
     },
     bsc: {
@@ -45,6 +45,11 @@ const config: HardhatUserConfig = {
     },
     kcc: {
       url: process.env.KCC_RPC || "https://rpc-mainnet.kcc.network",
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
+    metis: {
+      url: process.env.METIS_RPC || "https://andromeda.metis.io/?owner=1088",
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },

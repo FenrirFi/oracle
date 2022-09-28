@@ -1,7 +1,7 @@
 import hre from "hardhat";
 import { readFileSync, writeFileSync } from "fs";
 import { numToWei } from "../utils/utils";
-import { configs } from "../scripts/configs/bsc";
+import { configs } from "../scripts/configs/metis";
 
 const outputFilePath = `./deployments/${hre.network.name}.json`;
 

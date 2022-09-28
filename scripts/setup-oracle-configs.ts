@@ -2,7 +2,7 @@ import hre from "hardhat";
 import { readFileSync } from "fs";
 import { toBn } from "../utils/utils";
 import { createConfigs } from "./common/create-configs";
-import { configs } from "../scripts/configs/bsc";
+import { configs } from "../scripts/configs/metis";
 
 const deploymentFilePath = `./deployments/${hre.network.name}.json`;
 

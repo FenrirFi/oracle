@@ -1,6 +1,6 @@
 import hre from "hardhat";
 import { readFileSync } from "fs";
-import { configs } from "../scripts/configs/bsc";
+import { configs } from "../scripts/configs/metis";
 import { abi } from "../utils/abis";
 
 const deploymentFilePath = `./deployments/${hre.network.name}.json`;
